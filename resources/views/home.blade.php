@@ -131,7 +131,6 @@
            data: frm.serialize(),
            complete: function(){
              $('#newpostid').modal('hide');
-            alert("Save ");
            },
            success: function (data) {
 
